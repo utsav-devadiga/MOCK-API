@@ -1,35 +1,10 @@
 {
-  "Post": {
-    "cover": {
-      "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270"
-    },
-    "title": {
-      "loremWords": {
-        "minLength": 5,
-        "maxLength": 20
-      }
-    },
-    "body": {
-      "loremParagraphs": {
-        "minLength": 10,
-        "maxLength": 100
-      }
-    },
-    "tag": {
-      "string": [
-        "one",
-        "two",
-        "three"
-      ]
-    },
-    "isDraft": {
-      "boolean": {}
-    },
-    "createdAt": {
-      "dateTime": {
-        "min": "2010-01-01T00:00:00Z",
-        "max": "2020-12-31T23:59:59Z"
-      }
+"instruction":{
+      "Srno": 1,
+      "Grade": "G1",
+      "Designation": "Android Engineer",
+      "to_show_GRADE": "G1",
+      "to_show_DESIGNATION": "ANDROID ENGINEER",
+      "InstructionText": "Note that only {1} are eligible for Group Health Insurance Benefits.You can add, modify or delete your dependant details during the Enrollment Open Enrollment Window period.Modifications of only Spouse and Children information is permitted in Step 2."
     }
-  }
 }
