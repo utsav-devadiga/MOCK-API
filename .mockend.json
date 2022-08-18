@@ -1,3 +1,8 @@
 {
-"name":"ABC"
+  "name": {
+    "string": [
+      "Thor",
+      "Loki"
+    ]
+  }
 }
